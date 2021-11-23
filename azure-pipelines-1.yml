@@ -25,7 +25,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-- script: python Application-Detection/face_detection.py 
+
 
 - script: python -m pip install --upgrade pip setuptools wheel
   displayName: 'Install tools' 
